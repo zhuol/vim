@@ -1,0 +1,10 @@
+Commenting with #:
+
+1. visually select the text rows (using V as usual)
+2. :norm i#
+This inserts "#" on each line. Note that when you type : the range will be filled in, so it will really look like :'<,'>norm i#
+
+Uncommenting #:
+
+1. visually select the text as before (or type gv to re-select the previous selection)
+2. :norm x
